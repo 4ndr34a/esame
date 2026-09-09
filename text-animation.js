@@ -11,7 +11,7 @@ const split3 = new SplitText("#section2 h1, #section2 h2, #section2 h3, #section
 gsap.from(split1.chars, {
     scrollTrigger : {       
         trigger: "#section1",
-        markers: true,
+        markers: false,
         pin: true,
         scrub: true,
     }, 
@@ -42,7 +42,7 @@ gsap.from(split2.chars, {
 gsap.from(split3.lines, {
     scrollTrigger : {       
         trigger: "#section2",
-        markers: true,
+        markers: false,
         pin: true,
         scrub: true,
     }, 
